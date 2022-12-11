@@ -1,0 +1,23 @@
+body {
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 28%;
+    font-family: Helvetica;
+}
+
+img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid gray;
+
+}
+
+h2, p, a {
+    padding-left: 1ch;
+    padding-right: 1ch;
+}
+
+footer {
+    padding-bottom: 1ch;
+}
