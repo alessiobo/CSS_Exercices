@@ -1,0 +1,51 @@
+body {
+    font-size: 25px;
+}
+
+.calc {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+    width: 300px;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.result {
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+    grid-column: span 4;
+    background-color: rgb(70, 85, 85);
+    color: whitesmoke;
+    border-radius: 10px 10px 0px 0px;
+}
+.operator {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(193, 196, 216);
+}
+.number {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 225, 225);
+}
+.uguale {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 4;
+    grid-row-start: 7;
+    grid-row-end: 3;
+    background-color: rgb(225, 99, 99);
+    border-radius: 0px 0px 10px 0px;
+}
+.result, .operator, .number, .uguale {
+    border: 1px solid rgb(165, 165, 165);
+}
+.calc > div:nth-child(15) {
+    border-radius: 0px 0px 0px 10px;
+}
